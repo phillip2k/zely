@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@zely/core-lib": ["packages/core-lib/src/index.ts"],
+      "@zely/lib1": ["packages/lib1/src/index.ts"],
+      "@zely/lib2": ["packages/lib2/src/index.ts"],
+      "@zely/lib3": ["packages/lib3/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
